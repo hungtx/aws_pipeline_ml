@@ -13,7 +13,7 @@ endpoint_name = f"{stack_name}-{commit_id[:7]}"
 
 runtime = boto3.client("runtime.sagemaker")
 
-IMAGE_URL = "https://aws-mlops-samples.s3-eu-west-1.amazonaws.com/mnist_output_10.png"
+IMAGE_URL = "https://blog.otoro.net/assets/20160401/png/mnist_output_10.png"
 test_file = "test.jpg"
 wget.download(
     IMAGE_URL,
